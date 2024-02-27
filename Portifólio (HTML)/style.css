@@ -1,0 +1,37 @@
+body{
+    background-image: url(Programação.jpg);           
+    background-size: cover;                             /*GARANTE QUE A IMAGEM CUBRA A AREA INTEIRA DISPONIVEL*/
+    background-position: center;                        /*CENTRALIZA A IMAGEM*/
+    color:white;
+}
+strong{
+    color: white;
+}
+h2{
+    color: whitesmoke;
+}
+.social-button{
+    display: inline-block;          /*PERMITE OS BOTÕES FICAR NA MESMA LINHA*/
+    margin: 15px;                   
+    padding: 20px 50px;
+    font-size: 16px;                
+    text-align: center;             /*CENTRALIZA O TEXTO DENTRO DO BOTÃO*/
+    text-decoration: none;          /*REMOVE O ASPECTO DE LINK*/
+    color: black;
+    border: 2px solid #fff;
+    border-radius: 5px;             /*ADICIONA UMA BORDA ARREDONDADA*/
+    background: none;
+    cursor: pointer;                /*ALTERA O CURSOR DO MOUSE, QUANDO PASSA EM CIMA DO BOTÃO*/
+}
+.instagram{
+    background-color:#c0c0c0;
+}
+.github{
+    background-color: #c0c0c0;
+}
+.linkedin{
+    background-color: #c0c0c0;
+}
+.social-button:hover {
+    opacity: 0.8;
+}
